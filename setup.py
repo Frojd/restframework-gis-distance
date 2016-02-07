@@ -39,13 +39,13 @@ with open('rest_framework_gis_distance/__init__.py', 'r') as fd:
                         fd.read(), re.MULTILINE).group(1)
 
 setup(
-    name="rest_framework_gis_distance",
+    name="djangorestframework-gis-distance",
     version=version,
     description=(""),
     long_description=long_description,
     author="Fröjd",
     author_email="martin@marteinn.se",
-    url="https://github.com/frojd/restframework-gis-distance",
+    url="https://github.com/Frojd/restframework-gis-distance",
     packages=find_packages(exclude=('tests*',)),
     include_package_data=True,
     install_requires=install_requires,

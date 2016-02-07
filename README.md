@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Frojd/restframework-gis-distance.svg?branch=master)](https://travis-ci.org/Frojd/restframework-gis-distance)
+
 # Django-Rest-Framework-Gis-Distance
 
 This is a extension to [Django-Rest-Framework-Gis](https://github.com/djangonauts/django-rest-framework-gis) that adds sorting and distance distance to the [DistanceToPointerFilter](https://github.com/djangonauts/django-rest-framework-gis#distancetopointfilter).
