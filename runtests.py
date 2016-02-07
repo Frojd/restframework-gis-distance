@@ -11,7 +11,7 @@ if not settings.configured:
             'default': {
                 'ENGINE': 'django.contrib.gis.db.backends.postgis',
                 'NAME': 'django_restframework_gis',
-                'USER': 'postgres',
+                'USER': 'postgre',
                 'PASSWORD': 'postgres',
                 'HOST': '',
                 'PORT': ''
@@ -27,7 +27,7 @@ if not settings.configured:
 
             'rest_framework',
             'rest_framework_gis',
-            "restframework_gis_distance",
+            "rest_framework_gis_distance",
             "tests",
         ),
         MIDDLEWARE_CLASSES=[],

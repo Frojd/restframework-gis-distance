@@ -34,12 +34,12 @@ except:
     long_description = ""
 
 version = ''
-with open('django_rest_framework_gis_dis/__init__.py', 'r') as fd:
+with open('rest_framework_gis_distance/__init__.py', 'r') as fd:
     version = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]',
                         fd.read(), re.MULTILINE).group(1)
 
 setup(
-    name="django_rest_framework_gis_dis",
+    name="rest_framework_gis_distance",
     version=version,
     description=(""),
     long_description=long_description,

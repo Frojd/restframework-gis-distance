@@ -5,7 +5,7 @@ from django.http import (
 )
 from rest_framework import mixins, generics
 from rest_framework.permissions import AllowAny
-from restframework_gis_distance.filters import OrderedDistanceToPointFilter
+from rest_framework_gis_distance.filters import OrderedDistanceToPointFilter
 from models import Record
 from serializers import (
     RecordOptionalSerializer, RecordSerializer

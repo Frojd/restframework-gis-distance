@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from rest_framework import serializers
-from restframework_gis_distance.fields import DistanceField
+from rest_framework_gis_distance.fields import DistanceField
 from models import Record
 
 

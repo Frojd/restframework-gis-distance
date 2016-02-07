@@ -2,12 +2,12 @@
 # -*- coding: utf-8 -*-
 
 """
-django_rest_framewor_gis_dis
+rest_framework_gis_disance
 ----------
 Add additional distance/sorting to django_rest_framework_gis
 """
 
-__title__ = "django_rest_framework_gis_dis"
+__title__ = "rest_framework_gis_distance"
 __version__ = "1.0.0"
 __build__ = 100
 __author__ = "Martin Sandström"
