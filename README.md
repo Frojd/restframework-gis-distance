@@ -95,6 +95,8 @@ class RecordOptionalSerializer(serializers.ModelSerializer):
 
 ## Options
 
+### These belong in your DRF view:
+
 - `distance_filter_field`: Target geo filtering field (inherited from DistanceToPointerFilter).
 - `distance_srid`: (Optional) The srid you want to use on your distance. (Default `4326`)
 - `distance_sort_order`: (Optional) Indicates the sort order, closest (`True`) or farthest (`False`). (Default: `True`) 
