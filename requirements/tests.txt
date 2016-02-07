@@ -1,0 +1,4 @@
+-r install.txt
+psycopg2
+django
+django-filter
