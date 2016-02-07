@@ -3,7 +3,10 @@ env:
  - DJANGO_VERSION=1.9.0
 python:
   - "2.7"
+before_script:
+  - psql -U postgres -c "create extension postgis"
+  - psql -c 'create database travis_ci_test;' -U postgres
 install:
-- pip install -r requirements/tests.txt
+  - pip install -r requirements/tests.txt
 script:
- - python runtests.py
+  - python runtests.py

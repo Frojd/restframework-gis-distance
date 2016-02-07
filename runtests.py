@@ -10,8 +10,8 @@ if not settings.configured:
         DATABASES={
             'default': {
                 'ENGINE': 'django.contrib.gis.db.backends.postgis',
-                'NAME': 'django_restframework_gis',
-                'USER': 'postgre',
+                'NAME': 'travis_ci_test',
+                'USER': 'postgres',
                 'PASSWORD': 'postgres',
                 'HOST': '',
                 'PORT': ''
